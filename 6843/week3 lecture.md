@@ -17,3 +17,10 @@
 
   ![](./images/Screen%20Shot%202021-06-18%20at%205.29.55%20pm.png)
 
+- http redirect to https is problematic
+  - the http site is still susceptible to MITM
+
+## Session management
+
+![](./images/2.png)
+
