@@ -15,5 +15,5 @@
 
 - Can HTTPS be MITM'd?
 
-  ![Screen Shot 2021-06-18 at 5.29.55 pm](./images/Screen Shot 2021-06-18 at 5.29.55 pm.png)
+  ![Screen Shot 2021-06-18 at 5.29.55 pm](./images/Screen%20Shot 2021-06-18%20at%205.29.55 pm.png)
 
