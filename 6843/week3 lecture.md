@@ -1,9 +1,11 @@
 # Week 3 lecture
 
-## http and https
+## HTTP and HTTPs
 
 - Tcp connection opened with the server
 - Bidirectional communication stream
+
+
 
 ## TLS
 
@@ -18,7 +20,10 @@
   ![](./images/Screen%20Shot%202021-06-18%20at%205.29.55%20pm.png)
 
 - http redirect to https is problematic
+
   - the http site is still susceptible to MITM
+
+
 
 ## Session management
 
@@ -28,4 +33,57 @@
 
 ## Attacking Sessions
 
-![Screen Shot 2021-06-18 at 6.30.41 pm](./images/3.png)
+![](./images/3.png)
+
+- race conditions?
+- concurrent session check?
+  - check if another low privilleged user in another browser's session id is the same as the admin accounts
+- understand how sessions are created
+- look at stealing/transferring
+- look at expiry and clean up
+
+bugmenot -> website for test credentials
+
+## Access control
+
+#### Access control types
+
+- DAC (discretionary access control) 
+  - NTFS
+  - file system
+- RuleBAC and RoleBAC
+  - rule or role based
+  - Attribute
+- Parameter-based
+  - Firewall and modern routers
+
+Access control and what happens when a person's role changes? e.g. sysadmin becomes a normal developer
+
+sessionIds should be terminated, if not: replay attacks can occur.
+
+client side does the sessionid validation, so vulnerability might only be visible through burp suite since the server side might not perform the same validations.
+
+do not do client based access controls
+
+#### Types of web access controls
+
+- security through obscurity
+- one off access control
+- rule based access control
+
+#### Rule based access control: Horizontal vs vertical
+
+![](./images/4.png)
+
+if two students with same permissions are able to access each other's files, that is horizontal access, but getting the lectures account is vertical.
+
+
+
+#### Attacking access control
+
+Method 1: Bypass entirely
+
+![](./images/5.png)
+
+
+
