@@ -39,3 +39,10 @@ proof of the lemma in the previous section
 
   ![](./images/5.png)
 
+- **squares of roots of unity of order n are roots of unity of order n/2 if n is even number**
+  - ![](./images/6.png)
+
+
+
+## Discrete Fourier Transformation
+
