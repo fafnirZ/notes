@@ -31,4 +31,11 @@ proof of the lemma in the previous section
 
   
 
+- use roots of unity so the coefficients do not explode
+
+  ![](./images/4.png)
+
   
+
+  ![](./images/5.png)
+
