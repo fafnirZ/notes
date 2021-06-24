@@ -47,7 +47,24 @@ Assume exists an optimal solution better than greedy. Show the greedy strategy a
 
 ![image-20210621180200973](./images/9.png)
 
-### 
+
+
+### Greedy method to graphs
+
+- Given directed graph G= (V,E)
+- strongly connected component G is a graph where
+  - u -> v and also v-> u
+    - all vertices can go to another vertex and back.
+
+##### understand this
+
+- construct another graph G' = (V, E') consisting of same set of verticies V but with sed of edges which is reversing the direction of all edges 
+  - use BFS to find the set of vertices in V which is reachable in G from *u*
+  - ????
+
+
+
+
 
 
 
