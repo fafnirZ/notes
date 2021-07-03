@@ -27,7 +27,7 @@ exfiltrate data using function primitives
 
 ## Local file inclusion
 
-- getting /etc/passwd of server?
+- getting `/etc/passwd` of server?
 
 ## Cmd injection
 
@@ -50,11 +50,11 @@ exfiltrate data using function primitives
 
 - using sql functions
 
-  - Chr(), cast(), concat(), xpcmdshell()
+  - `Chr(), cast(), concat(), xpcmdshell()`
 
 - fingerprinting the DBMS
 
-  - @@version, version(), sqlite_version()
+  - `@@version, version(), sqlite_version()`
 
   
 
@@ -67,6 +67,12 @@ blind sql payload example
 ### Template injection
 
 ![Screen Shot 2021-06-27 at 1.45.32 am](./images/1.png)
+
+
+
+injecting a object payload
+
+- `{"$exists":true}`
 
 
 
